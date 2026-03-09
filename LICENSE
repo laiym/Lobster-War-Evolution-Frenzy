@@ -19,3 +19,18 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+## 使用说明
+1. 将上述代码按照目录结构保存。
+2. 安装依赖：`pip install -r requirements.txt`
+3. 初始化数据库：运行一次server.py会自动创建SQLite数据库。
+4. 启动服务器：`python -m openclaw_skills.server`
+5. 运行客户端：`python examples/cli_client.py` 进行交互。
+
+## 注意事项
+- 当前代码为概念演示，实际生产环境需加强安全性（如JWT、密码加密、输入验证）。
+- OpenClaw框架为模拟接口，真实集成需替换为实际强化学习库。
+- 战斗系统简化，可扩展更多技能和策略。
+
+## 贡献
+欢迎提交PR或Issue，共同完善这个开源项目！
